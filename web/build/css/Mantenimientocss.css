@@ -1,0 +1,886 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textArea {
+    resize: none;
+}
+
+.labelObsinicial {}
+
+#menu_toggle {
+    background-color: #181864;
+}
+
+.nav_title {
+    background-color: #181864;
+}
+
+#carouselExampleControls {
+    /*control del carrousel*/
+}
+
+#datable-responsive {
+    width: 200px;
+}
+
+.left_col scroll-view {
+    width: 300px;
+}
+
+#img1,
+#img2,
+#img3 {
+    display: flexbox;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.encabezadoForm {
+    color: #000000;
+    font-weight: bolder;
+    font-size: 20px;
+}
+._8esf ._5k_4 ._8esg {
+    border-radius: 5px;
+    color: #1c1e21;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    height: 36px;
+    line-height: 20px;
+} 
+
+#formulariogenerar {
+    border-radius: 2px;
+}
+
+.part2 {
+    align-items: center;
+}
+
+.formestilo {
+    box-shadow: 1px black;
+}
+
+#formulariogenerar {
+    align-items: center;
+}
+
+.estiloinput {
+    border-top: #000000;
+    border-radius: 5px;
+    width: 5%;
+}
+
+.eme {
+    background-color: #181864;
+    color: white;
+    border-radius: 5px;
+}
+
+.oferta {
+    width: 100%;
+}
+
+.desc_tarea {
+    width: 100%;
+}
+
+.caja {
+    width: 100%;
+}
+
+.eo {
+    padding: 5px 5px 13px 26px;
+    color: black;
+    opacity: 0.9;
+}
+
+.eme2 {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    border-radius: 5px;
+}
+
+.titulos_negrita {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.logoform {
+    position: flex;
+    margin-right: 50%;
+    width: 200px;
+    border-radius: 5px;
+    bottom: 70%;
+}
+
+#imagen_oferta {
+    width: 50%;
+    height: 120px;
+    margin-left: 25%;
+}
+
+#botonverdetalle {
+    margin-left: 29%;
+    color: white;
+    background-color: #e28e16;
+    border-radius: 35px;
+}
+
+.desc_tarjetas {
+    display: none;
+    z-index: inherit;
+}
+
+.container_desc_tarjeta {
+    box-shadow: 3px 2px 3px 1px #1a2036;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 1px inline black;
+    width: 30rem;
+    padding: 1%;
+    position: relative;
+}
+
+th {
+    background-color: #181864;
+}
+
+button {
+    color: white;
+}
+
+.absolute {
+    position: absolute;
+    margin-left: 25%;
+    z-index: 5;
+}
+
+.filtros {
+    border-radius: 5px;
+    border: 1px solid #181864;
+}
+
+.table {
+    font-weight: normal;
+}
+
+#contenedor {
+    font-weight: bolder;
+    color: black;
+    text-align: -webkit-center;
+}
+
+#contenedorcontra {
+    font-weight: bolder;
+    color: black;
+    text-align: -webkit-center;
+}
+
+
+/*fondoooooooooo*/
+
+.fondo {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    position: absolute;
+    margin-bottom: 40px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.logo-animacion {
+    width: 80px;
+    opacity: .3;
+    position: absolute;
+    bottom: -150px;
+    animation: burbujas 4s linear infinite;
+}
+
+.logo-animacion:nth-child(1) {
+    width: 25px;
+    height: 25px;
+    left: 20%;
+    animation-duration: 2s;
+    animation-delay: 3s;
+}
+
+.logo-animacion:nth-child(2) {
+    width: 45px;
+    height: 45px;
+    left: 40%;
+    animation-duration: 3.2s;
+    animation-delay: 4s;
+}
+
+.logo-animacion:nth-child(3) {
+    width: 70px;
+    height: 70px;
+    left: 60%;
+    animation-duration: 2.8s;
+    animation-delay: 2.9s;
+}
+
+.logo-animacion:nth-child(4) {
+    width: 100px;
+    height: 100px;
+    left: 80%;
+    animation-duration: 3.5s;
+    animation-delay: 2s;
+}
+
+.logo-animacion:nth-child(5) {
+    width: 45px;
+    height: 45px;
+    left: 5%;
+    animation-duration: 3.3s;
+    animation-delay: 4s;
+}
+
+.logo-animacion:nth-child(6) {
+    width: 20px;
+    height: 20px;
+    left: 25%;
+    animation-duration: 2.6s;
+    animation-delay: 2.5s;
+}
+
+.logo-animacion:nth-child(7) {
+    width: 100px;
+    height: 100px;
+    left: 45%;
+    animation-duration: 3.8s;
+    animation-delay: 2s;
+}
+
+.logo-animacion:nth-child(8) {
+    width: 70px;
+    height: 70px;
+    left: 65%;
+    animation-duration: 3.1s;
+    animation-delay: 4.5s;
+}
+
+.logo-animacion:nth-child(9) {
+    width: 100px;
+    height: 100px;
+    left: 10%;
+    animation-duration: 3.5s;
+    animation-delay: 2s;
+}
+
+.logo-animacion:nth-child(10) {
+    width: 70px;
+    height: 70px;
+    left: 30%;
+    animation-duration: 2.8s;
+    animation-delay: 5s;
+}
+
+.logo-animacion:nth-child(11) {
+    width: 45px;
+    height: 45px;
+    left: 50%;
+    animation-duration: 2.9s;
+    animation-delay: 4s;
+}
+
+.logo-animacion:nth-child(12) {
+    width: 20px;
+    height: 20px;
+    left: 70%;
+    animation-duration: 2s;
+    animation-delay: 3s;
+}
+
+.logo-animacion:nth-child(13) {
+    width: 70px;
+    height: 70px;
+    left: 15%;
+    animation-duration: 2.8s;
+    animation-delay: 5s;
+}
+
+.logo-animacion:nth-child(14) {
+    width: 100px;
+    height: 100px;
+    left: 35%;
+    animation-duration: 4.5s;
+    animation-delay: 0s;
+}
+
+.logo-animacion:nth-child(15) {
+    width: 20px;
+    height: 20px;
+    left: 55%;
+    animation-duration: 2s;
+    animation-delay: 3s;
+}
+
+.logo-animacion:nth-child(16) {
+    width: 45px;
+    height: 45px;
+    left: 75%;
+    animation-duration: 3s;
+    animation-delay: 4s;
+}
+
+@keyframes burbujas {
+    0% {
+        bottom: 0;
+        opacity: 0;
+    }
+    30% {
+        transform: translateX(30px);
+    }
+    50% {
+        opacity: .9;
+    }
+    100% {
+        bottom: 100vh;
+        opacity: 0;
+    }
+}
+
+@keyframes movimiento {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(50px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+/* para ocultar el scroll */
+
+body::-webkit-scrollbar {
+    width: 20px;
+    /* Tamaño del scroll en vertical */
+    height: 8px;
+    /* Tamaño del scroll en horizontal */
+    display: none;
+    /* Ocultar scroll */
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Cambiamos el fondo cuando esté en active */
+
+body::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+}
+
+
+/*modal usuario*/
+
+#container {
+    text-align: center;
+    height: 760px;
+    align-items: center;
+    border: 5px solid #181864;
+}
+
+
+/*LOGO USUARIO*/
+
+.logousu {
+    position: flex;
+    margin-left: auto;
+    width: 200px;
+    bottom: 70%;
+}
+
+.titletoken {
+    text-align: center;
+}
+
+.containerLogin {
+    font-weight: bolder;
+    background-color: #1a2036;
+    color: white;
+    border-radius: 5%;
+}
+
+#tokenlogo {
+    width: 200px;
+    height: 100px;
+    margin-left: 21%;
+}
+
+.redonda {
+    border-radius: 5px;
+}
+
+.home {
+    padding-left: 21px;
+    padding-top: 20px;
+}
+
+.contenedor_de_datos {
+    margin-left: 10px;
+}
+
+.centertodo {
+    margin-left: 18px;
+}
+
+.divcontenedores {
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+/*PARA TITULOS*/
+
+.titles {
+    font-weight: bolder;
+    font-size: large;
+}
+
+.ocultardivs {
+    display: none;
+}
+
+.showhistorial {
+    font-weight: bolder;
+}
+
+.show {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.efectohover {
+    text-align: center;
+    border: 1px solid;
+    border-radius: 5px;
+    background: #1464a5;
+    color: white;
+}
+
+.efectohover:hover {
+    background: #1464a5;
+    color: white;
+}
+
+#actividades {
+    position: relative;
+}
+
+.titlesbig {
+    font-weight: bolder;
+}
+
+
+/* /VALIDACIONES ADMINISTRADOR/ */
+
+.procesobueno {
+    border: 1px solid #1464a5;
+    opacity: 1;
+    box-shadow: 1px 0px 0px 3px#1464a5;
+}
+
+.procesomalo {
+    border: 1px solid #1464a5;
+    opacity: 1;
+    box-shadow: 1px 0px 0px 3px ;
+}
+
+.error {
+    width: 200px;
+    height: auto;
+    display: none;
+}
+
+.error-activo {
+    color: red;
+    display: block;
+}
+
+.button:hover {
+    box-shadow: 3px 0px 30px rgba(163, 163, 163, 1);
+}
+
+
+/*LOGIN*/
+
+.login__input:focus {
+    border: 1px solid #000000;
+    outline: none;
+    box-shadow: 3px 0px 30px rgba(163, 163, 163, 0.4);
+}
+
+.formulario__input-error {
+    font-size: 12px;
+    margin-bottom: 0;
+    display: none;
+}
+
+.formulario__mensaje {
+    height: 45px;
+    line-height: 45px;
+    background: #F66060;
+    padding: 0 15px;
+    border-radius: 3px;
+    display: none;
+}
+
+.formulario__mensaje-activo {
+    display: block;
+}
+
+.formulario__input-error-activo {
+    display: block;
+}
+
+.formulario__mensaje-exito {
+    font-size: 14px;
+    color: #119200;
+    display: none;
+}
+
+.formulario__mensaje-exito-activo {
+    display: block;
+}
+
+
+/* ----- -----  Estilos para Validacion ----- ----- */
+
+.formulario__grupo-correcto .formulario__validacion-estado {
+    color: #1ed12d;
+    opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__label {
+    color: #bb2929;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+    color: #bb2929;
+    opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__input {
+    border: 1px solid #bb2929;
+}
+
+
+/**/
+
+.formulario__input-error {
+    font-size: 12px;
+    margin-bottom: 0;
+    display: none;
+}
+
+.formulario__input-error-activo {
+    display: block;
+}
+
+.formulario__validacion-estado {
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    z-index: 100;
+    font-size: 16px;
+    opacity: 0;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+    display: grid;
+}
+
+
+/* =====================================================
+                    FIN MANTENIMIENTO
+    =====================================================*/
+
+#aplicaroculto {
+    display: none;
+}
+
+
+/* CLASE PARA DAR A LOS BOTONES UN RADIO */
+
+.radios {
+    border-radius: 4px;
+
+    border: 1px solid #1464a5;
+    box-shadow: 1px 0px 0px 3px;
+   
+  
+ 
+  
+    
+}
+    
+
+
+
+/* EDITAR FORMULARIO CON PADDING */
+
+#alertamatricula {
+    padding: 1px 1px 1px 1px;
+}
+
+.time {
+    font-size: small;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1;
+}
+
+.card-header {
+    border: none;
+}
+
+.home2 {
+    height: 90vh;
+}
+
+
+.arrow-steps .step {
+	font-size: 14px;
+	text-align: center;
+	color: #FFF;
+	cursor: default;
+	margin: 0 3px;
+	padding: 10px 10px 10px 30px;
+	min-width: 180px;
+	float: left;
+   
+	position: relative;
+	background-color: rgb(139, 142, 156);
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none; 
+  transition: background-color 0.2s ease;
+}
+
+.arrow-steps .step:after,
+.arrow-steps .step:before {
+	content: " ";
+	position: absolute;
+	top: 0;
+	right: -17px;
+	width: 0;
+	height: 0;
+	border-top: 19px solid transparent;
+	border-bottom: 17px solid transparent;
+	border-left: 17px solid rgb(139, 142, 156);
+    
+	z-index: 2;
+  transition: border-color 0.2s ease;
+}
+
+.arrow-steps .step:before {
+	right: auto;
+	left: 0;
+	border-left: 17px solid #fff;	
+	z-index: 0;
+}
+
+.arrow-steps .step:first-child:before {
+	border: none;
+}
+
+.arrow-steps .step:first-child {
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+.arrow-steps .step span {
+	position: relative;
+}
+
+.arrow-steps .step span:before {
+	opacity: 0;
+	content: "✔";
+	position: absolute;
+	top: -2px;
+	left: -20px;
+}
+
+.arrow-steps .step.done span:before {
+	opacity: 1;
+	-webkit-transition: opacity 0.3s ease 0.5s;
+	-moz-transition: opacity 0.3s ease 0.5s;
+	-ms-transition: opacity 0.3s ease 0.5s;
+	transition: opacity 0.3s ease 0.5s;
+}
+
+.arrow-steps .step.current {
+	color: #fff;
+	background-color: rgb(23, 52, 212);
+}
+
+
+.arrow-steps .step.current:after {
+	border-left: 17px solid rgb(23, 52, 212);
+}
+/* para ocultar y mostrar la caja de estado  */
+
+
+input[type=file]::file-selector-button {
+    margin-right: 10px;
+    border: none;
+    background: #084cdf;
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+  }
+  
+  input[type=file]::file-selector-button:hover {
+    background: #0d45a5;
+  }
+
+  .table>tbody>tr>td,
+.table>tbody>tr>th {
+  border-top: none;
+}
+
+.timeline {
+    border-left: 3px solid #727cf5;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    background: rgba(114, 124, 245, 0.09);
+    margin: 0 auto;
+    letter-spacing: 0.2px;
+    position: relative;
+    line-height: 1.4em;
+    font-size: 1.03em;
+    padding: 50px;
+    list-style: none;
+    text-align: left;
+    max-width: 40%;
+}
+
+@media (max-width: 800px) {
+    .timeline {
+        max-width: 98%;
+        padding: 25px;
+    }
+}
+
+.timeline h1 {
+    font-weight: 300;
+    font-size: 1.4em;
+}
+
+.timeline h2,
+.timeline h3 {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.timeline .event {
+    border-bottom: 1px dashed #e8ebf1;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+@media (max-width: 800px) {
+    .timeline .event {
+        padding-top: 30px;
+    }
+}
+
+.timeline .event:last-of-type {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: none;
+}
+
+.timeline .event:before,
+.timeline .event:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+.timeline .event:before {
+    left: -207px;
+    content: attr(data-date);
+    text-align: right;
+    font-weight: 100;
+    font-size: 0.9em;
+    min-width: 120px;
+}
+
+@media (max-width: 800px) {
+    .timeline .event:before {
+        left: 0px;
+        text-align: left;
+    }
+}
+
+.timeline .event:after {
+    -webkit-box-shadow: 0 0 0 3px #727cf5;
+    box-shadow: 0 0 0 3px #727cf5;
+    left: -55.8px;
+    background: #fff;
+    border-radius: 50%;
+    height: 9px;
+    width: 9px;
+    content: "";
+    top: 5px;
+}
+
+@media (max-width: 800px) {
+    .timeline .event:after {
+        left: -31.8px;
+    }
+}
+
+.rtl .timeline {
+    border-left: 0;
+    text-align: right;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border-right: 3px solid #727cf5;
+}
+
+.rtl .timeline .event::before {
+    left: 0;
+    right: -170px;
+}
+
+.rtl .timeline .event::after {
+    left: 0;
+    right: -55.8px;
+}
